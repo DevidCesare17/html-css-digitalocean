@@ -80,4 +80,10 @@ main section{
   background-color: lightgrey;
 }
 /* /main_section_6 */
+
+/* main_section_7 */
+.main_section_7{
+  background: linear-gradient(180deg, #0048C6, #001E99);
+}
+/* /main_section_7 */
 /* /MAIN */
