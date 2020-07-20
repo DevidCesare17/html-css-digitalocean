@@ -18,3 +18,18 @@
 }
 /* /header_hero */
 /* /HEADER */
+
+/* MAIN */
+/* main_section_1 */
+.main_section_1{
+  background-color: lightgrey;
+}
+
+.sponsor_list{
+  height: 100px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+/* /main_section_1 */
+
+/* /MAIN */
