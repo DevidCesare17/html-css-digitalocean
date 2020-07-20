@@ -10,6 +10,28 @@ a:hover{
 main section{
   text-align: center;
 }
+
+.p_top_70{
+  padding-top: 70px;
+}
+.p_bot_50{
+  padding-bottom: 50px;
+}
+
+.dd_menu_go{
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+.dd_menu_go::after{
+  content: "\f105";
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 10px;
+}
 /* /general */
 
 /* HEADER */
@@ -116,7 +138,7 @@ main section{
 .header_hero .form_bgcolor a{
   color: #2284FD;
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -186,13 +208,27 @@ main section{
 /* MAIN */
 /* main_section_1 */
 .main_section_1{
-  background-color: lightgrey;
+  background-color: #F3F5F9;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.main_section_1 p{
+  color: #6F7B97;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .sponsor_list{
   height: 100px;
-  background-color: green;
-  margin-bottom: 20px;
+  line-height: 100px;
+}
+
+.sponsor_list img{
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px 0;
 }
 /* /main_section_1 */
 
