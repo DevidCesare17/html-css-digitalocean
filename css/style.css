@@ -1,4 +1,8 @@
 /* general */
+a:hover{
+  text-decoration: none;
+}
+
 main section{
   text-align: center;
 }
@@ -7,19 +11,73 @@ main section{
 /* HEADER */
 /* header_top */
 .header_top{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
   padding: 20px 0;
 }
 
-.header_top_logo{
+.header_top_logo img{
+  height: auto;
+  max-width: 180px;
+  vertical-align: middle;
+}
+
+.header_top a{
+  color: #000000;
+}
+
+.header_top a:hover{
+  color: #2284FD;
+}
+
+.btn_list{
+  float: right;
+  font-size: 20px;
   height: 50px;
-  width: 150px;
-  background: lightblue;
+  width: 50px;
+  color: #2284FD;
+  border: none;
+}
+
+.header_top li{
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.dd_menu::after{
+  content: "\f107";
+  font-size: 15px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.signup_btn{
+  color: #2284FD;
+  border-radius: 5px;
+  border: 1px solid #2284FD;
+  padding: 10px;
+}
+
+.header_top .signup_btn:hover{
+  color: #ffffff;
+  background-color: #2284FD;
 }
 /* /header_top */
 
 /* header_hero */
 .header_hero{
   background-color: blue;
+  margin-top: 90px;
   padding: 50px 0;
 }
 /* /header_hero */
