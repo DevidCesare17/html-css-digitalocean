@@ -32,4 +32,10 @@
 }
 /* /main_section_1 */
 
+/* main_section_2 */
+.description_list{
+  border-left: 1px solid black;
+}
+/* /main_section_2 */
+
 /* /MAIN */
