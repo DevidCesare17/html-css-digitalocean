@@ -1,3 +1,9 @@
+/* general */
+main section{
+  text-align: center;
+}
+/* /general */
+
 /* HEADER */
 /* header_top */
 .header_top{
@@ -55,4 +61,23 @@
 
 /* /main_section_4 */
 
+/* main_section_5 */
+.main_section_5{
+  background: linear-gradient(180deg, #0048C6, #001E99);
+}
+
+.main_section_5 li{
+  margin: 0 10px;
+}
+
+.main_section_5 a{
+  text-align: right;
+}
+/* /main_section_5 */
+
+/* main_section_6 */
+.main_section_6{
+  background-color: lightgrey;
+}
+/* /main_section_6 */
 /* /MAIN */
