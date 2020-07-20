@@ -38,4 +38,17 @@
 }
 /* /main_section_2 */
 
+/* main_section_3 */
+.main_section_3{
+  background-color: lightgrey;
+}
+
+.box_scroll{
+  background-color: red;
+  height: 350px;
+  width: 400px;
+  margin: auto;
+}
+/* /main_section_3 */
+
 /* /MAIN */
