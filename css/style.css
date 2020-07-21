@@ -11,6 +11,19 @@ main section{
   text-align: center;
 }
 
+[class*="main_section"] h2{
+  color: #031C4E;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+/*
+.main_section_2 h2{
+  color: #031C4E;
+  font-size: 34px;
+  font-weight: 700;
+} */
+
 .p_top_70{
   padding-top: 70px;
 }
@@ -233,8 +246,39 @@ main section{
 /* /main_section_1 */
 
 /* main_section_2 */
-.description_list{
-  border-left: 1px solid black;
+.main_section_2 p{
+  color: #5C6A88;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description_list li{
+  border-left: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+.description_list a{
+  color: #75809A;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description_list a:hover{
+  color: #2496ED;
+}
+
+.section2_list_img{
+  margin-top: 50px;
+}
+
+.section2_img{
+  height: 160px;
+  margin-bottom: 10px;
+}
+
+.section2_img p{
+  font-size: 15px;
+  font-weight: 400;
 }
 /* /main_section_2 */
 
