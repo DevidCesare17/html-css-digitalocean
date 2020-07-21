@@ -278,7 +278,7 @@ main section{
 
 .section2_img{
   height: 160px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .section2_img p{
@@ -361,7 +361,7 @@ main section{
 
 .main_section_5 li{
   font-size: 13px;
-  padding: 5px 15px;
+  padding: 5px 0;
 }
 
 .main_section_5 li:not(:last-child){
@@ -509,6 +509,12 @@ footer .social_list a{
   .main_section_5 li{
     padding: 5px 0;
     margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .no_gutter{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 /* /MEDIAQUERY */
