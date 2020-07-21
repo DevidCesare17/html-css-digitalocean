@@ -17,12 +17,6 @@ main section{
   font-weight: 700;
   margin-bottom: 15px;
 }
-/*
-.main_section_2 h2{
-  color: #031C4E;
-  font-size: 34px;
-  font-weight: 700;
-} */
 
 .p_top_70{
   padding-top: 70px;
@@ -44,6 +38,17 @@ main section{
   font-weight: 900;
   vertical-align: middle;
   margin-left: 10px;
+}
+
+.pallini li{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+}
+.pallini li:hover{
+  background-color: #006AFF;
+  cursor: pointer;
 }
 /* /general */
 
@@ -284,14 +289,49 @@ main section{
 
 /* main_section_3 */
 .main_section_3{
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 
-.box_scroll{
-  background-color: red;
-  height: 350px;
-  width: 400px;
-  margin: auto;
+.main_section_3 p{
+  color: #5C6A88;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main_section_3 p:last-child{
+  color: #000000;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.box_scroll img{
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.box_scroll::before{
+  content: "\f104";
+  font-size: 40px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 20px;
+  vertical-align: middle;
+  color: #6F7B97;
+}
+.box_scroll::after{
+  content: "\f105";
+  font-size: 40px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 20px;
+  vertical-align: middle;
+  color: #031C4E;
 }
 /* /main_section_3 */
 
@@ -315,7 +355,7 @@ main section{
 
 /* main_section_6 */
 .main_section_6{
-  background-color: lightgrey;
+  background-color: #F3F5F9;
 }
 /* /main_section_6 */
 
@@ -331,3 +371,16 @@ footer{
   background-color: #031C4E;
 }
 /* /FOOTER */
+
+/* MEDIAQUERY */
+
+
+@media screen and (max-width: 768px) {
+  .box_scroll::before{
+    display: none;
+  }
+  .box_scroll::after{
+    display: none;
+  }
+}
+/* /MEDIAQUERY */
