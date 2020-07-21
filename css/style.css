@@ -383,11 +383,60 @@ main section{
 .main_section_6{
   background-color: #F3F5F9;
 }
+
+.main_section_6 .box_container_white{
+  background-color: #ffffff;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.box_scroll .rockerlogoimg {
+  max-width: 200px;
+  height: auto;
+}
+
+.main_section_6 .quote_p{
+  color: #848FA5;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.main_section_6 .small_p{
+  color: #000000;
+  font-weight: 700;
+  display: inline;
+}
 /* /main_section_6 */
 
 /* main_section_7 */
 .main_section_7{
   background: linear-gradient(180deg, #0048C6, #001E99);
+  padding: 40px 0;
+}
+
+.main_section_7 h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.main_section_7 a{
+  color: #006AFF;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.main_section_7 a:hover{
+  background-color: #000000;
+  color: #ffffff;
 }
 /* /main_section_7 */
 /* /MAIN */
@@ -395,6 +444,22 @@ main section{
 /* FOOTER */
 footer{
   background-color: #031C4E;
+}
+
+footer h4{
+  color: #ffffff;
+}
+
+footer p, .social_list a{
+  color: #8B94A9;
+}
+
+footer span{
+  color: #526181;
+}
+
+.f_link_list a{
+  color: #8E98AC;
 }
 /* /FOOTER */
 
@@ -410,6 +475,10 @@ footer{
   }
   .section4_list_img div{
     margin-bottom: 20px;
+  }
+  .main_section_5 li{
+    padding: 5px 0;
+    margin: 0;
   }
 }
 /* /MEDIAQUERY */
