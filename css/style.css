@@ -344,6 +344,11 @@ main section{
 /* main_section_5 */
 .main_section_5{
   background: linear-gradient(180deg, #0048C6, #001E99);
+  color: #ffffff;
+}
+
+.main_section_5 h2{
+  color: #ffffff;
 }
 
 .main_section_5 li{
@@ -352,6 +357,25 @@ main section{
 
 .main_section_5 a{
   text-align: right;
+}
+
+.main_section_5 li{
+  font-size: 13px;
+  padding: 5px 15px;
+}
+
+.main_section_5 li:not(:last-child){
+  border-bottom: 1px solid #ffffff;
+}
+
+.main_section_5 a{
+  font-size: 13px;
+  font-weight: 400;
+  color: #00D5D2;
+}
+
+.main_section_5 a:hover{
+  color: #ffffff;
 }
 /* /main_section_5 */
 
