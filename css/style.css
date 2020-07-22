@@ -120,7 +120,10 @@ main section{
 
 /* header_hero */
 .header_hero{
-  background-color: #004AFF;
+  background-image: url(../img/headerheroimg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-top: 90px;
   padding: 80px 0;
 }
