@@ -241,8 +241,14 @@ main section{
 }
 
 .sponsor_list{
-  height: 100px;
-  line-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.sponsor_list li{
+  width: calc(100%/6);
 }
 
 .sponsor_list img{
@@ -569,6 +575,14 @@ footer .social_list a{
 
 /* MEDIAQUERY */
 @media screen and (max-width: 768px) {
+  .sponsor_list{
+    flex-wrap: wrap;
+  }
+  .sponsor_list li{
+    width: 50%;
+  }
+
+
   .box_scroll::before{
     display: none;
   }
